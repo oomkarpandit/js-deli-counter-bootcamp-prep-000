@@ -7,6 +7,8 @@ function takeANumber(currentLineNo,custname){
   
 }
 function nowServing(katzDeliLine){
+  var test=[]
+  console.log(test.length + 'Length of new array')
   if (!katzDeliLine.length){
     console.log('length '+katzDeliLine.length)
      console.log('There is nobody waiting to be served!')
