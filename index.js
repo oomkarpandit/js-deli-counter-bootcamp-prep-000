@@ -7,10 +7,10 @@ function takeANumber(currentLineNo,custname){
   
 }
 function nowServing(katzDeliLine){
-  if (katzDeliLine.length>0){
+  if (!katzDeliLine.length){
   var cust=katzDeliLine[0]
   katzDeliLine.shift()
-  return `Now Serving ${katzDeliLine.shift()}cust
+  return `Now Serving ${katzDeliLine.shift()}
 }
 else
 return 'There is nobody waiting to be served!'
