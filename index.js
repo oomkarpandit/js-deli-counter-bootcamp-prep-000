@@ -1,5 +1,5 @@
 function takeANumber(currentLineNo,custname){
-  katzDeliLine.push(custname)
-  
+  currentLineNo.push(custname)
+  return `Welcome, ${currentLineNo
   
 }
