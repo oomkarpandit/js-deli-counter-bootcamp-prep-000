@@ -7,7 +7,8 @@ function takeANumber(currentLineNo,custname){
   
 }
 function nowServing(katzDeliLine){
-  var test=[1]
+  var test=[]
+   console.log(test.length)
   console.log(test.length + 'Length of new array')
   if (!test.length){console.log('zeroooo')}
   if (!katzDeliLine.length){
