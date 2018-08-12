@@ -15,3 +15,10 @@ function nowServing(katzDeliLine){
   console.log(`Currently serving ${katzDeliLine[0]}`)
   return `Currently serving ${katzDeliLine.shift()}`
 }
+
+function currentLine(currentLineA){
+  if(!currentLineA.length){
+    return "The line is currently empty."
+  }
+  return `The line currently: ${currentLineA}.`
+}
