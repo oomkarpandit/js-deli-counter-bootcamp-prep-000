@@ -7,10 +7,6 @@ function takeANumber(currentLineNo,custname){
   
 }
 function nowServing(katzDeliLine){
-  var test=[]
-   console.log(test.length)
-  console.log(test.length + 'Length of new array')
-  if (!test.length){console.log('zeroooo')}
   if (!katzDeliLine.length){
     console.log('length '+katzDeliLine.length)
      console.log('There is nobody waiting to be served!')
@@ -19,4 +15,3 @@ function nowServing(katzDeliLine){
   console.log(`Currently serving ${katzDeliLine[0]}`)
   return `Currently serving ${katzDeliLine.shift()}`
 }
-
