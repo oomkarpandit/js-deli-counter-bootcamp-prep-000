@@ -6,3 +6,13 @@ function takeANumber(currentLineNo,custname){
   return `Welcome, ${custname}.You are number ${currentLineNo.length} in line`
   
 }
+function nowServing(katzDeliLine){
+  if (katzDeliLine.length>0){
+  var cust=katzDeliLine[0]
+  katzDeliLine.shift()
+  return cust
+}
+else
+return 'There is nobody waiting to be served!'
+
+}
