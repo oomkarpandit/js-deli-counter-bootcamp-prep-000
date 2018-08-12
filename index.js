@@ -3,7 +3,7 @@ function takeANumber(currentLineNo,custname){
   currentLineNo.push(custname)
   console.log(currentLineNo + "new line no added a new line")
   console.log(`Welcome, ${custname}.You are number ${currentLineNo.length} in line`)
-  return `Welcome, ${custname}.You are number ${currentLineNo.length} in line`
+  return `Welcome, ${custname}. You are number ${currentLineNo.length} in line`
   
 }
 function nowServing(katzDeliLine){
