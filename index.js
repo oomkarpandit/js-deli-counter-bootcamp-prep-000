@@ -19,3 +19,4 @@ function nowServing(katzDeliLine){
   console.log(`Currently serving ${katzDeliLine[0]}`)
   return `Currently serving ${katzDeliLine.shift()}`
 }
+
